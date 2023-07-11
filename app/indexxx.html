@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Input Box</title>
+<link rel="stylesheet" href="./stylee.css">
+</head>
+<body>
+<input type="text" id="myInput">
+<button onclick="myFunction()">Submit</button>
+<p id="output"></p>
+<script>
+function myFunction() {
+var input = document.getElementById("myInput").value;
+document.getElementById("output").innerHTML = input;
+}
+</script>
+</body>
+</html>

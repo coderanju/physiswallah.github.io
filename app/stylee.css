@@ -1,0 +1,9 @@
+/* This is some CSS code */
+p {
+    color: red;
+  }
+  
+  /* This is the same CSS code, but with the code upper cased */
+  P {
+    color: red;
+  }
